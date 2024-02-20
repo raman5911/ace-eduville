@@ -1,0 +1,51 @@
+.bg-body-tertiary {
+  display: flex;
+  justify-content: space-around !important;
+  background-color: transparent !important;
+  padding: 0;
+}
+
+.whatsapp_icon {
+  margin-left: 20rem;
+  color: green;
+}
+
+.nav_show {
+  background-color: #fff !important;
+}
+
+.nav-brand {
+  color: #fff !important;
+  background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+  padding: 1rem 1.5rem;
+  font-weight: bold;
+  outline: none;
+}
+
+a.nav-link {
+  margin: auto 1rem;
+  color: #fff !important;
+  font-weight: 300;
+  text-shadow: none !important;
+  padding: 1.5rem 1.5rem !important;
+  transition: all 0.2s;
+}
+
+.nav_show .nav-link {
+  color: #000 !important;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+  background-color: #4985fcd0 !important;
+}
+
+@media only screen and (max-width: 769px) {
+  .nav-brand {
+    margin: 0rem !important;
+  }
+
+  a.nav-link {
+    color: #000 !important;
+  }
+}
