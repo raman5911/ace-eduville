@@ -5,9 +5,10 @@
   padding: 0;
 }
 
-.whatsapp_icon {
+.whatsapp_icon_mobile {
+  display: none;
   margin-left: 20rem;
-  color: green;
+  color: #00ff5e;
 }
 
 .nav_show {
@@ -40,6 +41,16 @@ a.nav-link {
   background-color: #4985fcd0 !important;
 }
 
+a.whatsapp_icon_desktop {
+  color: #00ff5e !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  a.nav-link {
+    margin: auto;
+  }
+}
+
 @media only screen and (max-width: 769px) {
   .nav-brand {
     margin: 0rem !important;
@@ -47,5 +58,27 @@ a.nav-link {
 
   a.nav-link {
     color: #000 !important;
+  }
+
+  a.whatsapp_desktop_icon {
+    display: none;
+  }
+
+  .whatsapp_icon_mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .whatsapp_icon_mobile {
+    margin-left: 3rem;
+  }
+
+  .offcanvas .whatsapp_icon_desktop {
+    color: #00ff5e !important;
+  }
+
+  a.nav-link {
+    margin: auto 1rem;
   }
 }

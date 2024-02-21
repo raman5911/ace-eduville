@@ -46,7 +46,8 @@ function NavBar() {
                   <Nav.Link href="/course" className="nav-link">Course</Nav.Link>
                   <Nav.Link href="/contact" className="nav-link">Contact</Nav.Link>
                   <Nav.Link href="tel:9599193444"><i className="fa fa-phone" style={{ fontSize: "18px", marginRight: "1rem" }}></i> 9599193444</Nav.Link>
-                  
+                  <Nav.Link href="https://wa.me/9599193444" className="whatsapp_icon_desktop"><i className="fa fa-whatsapp" style={{ fontSize: "24px" }}></i></Nav.Link>
+
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

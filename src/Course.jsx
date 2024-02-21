@@ -3,6 +3,19 @@ import { Row, Col } from "react-bootstrap";
 import CardComponent from "./CardComponent";
 import image2 from "./assets/images/image_2.jpg";
 import engImg from "./assets/images/learn_englsih.jpg";
+import french from "./assets/images/french.jpg";
+import programming from "./assets/images/programming.jpeg";
+import network from "./assets/images/network.jpeg";
+import seo from "./assets/images/seo.jpeg";
+import hacking from "./assets/images/hacking.jpeg";
+import hardware from "./assets/images/hardware.jpeg";
+import artificial_intelligence from "./assets/images/artificial intellignece.jpeg";
+import excel from "./assets/images/excel.jpeg";
+import basic_computer from "./assets/images/basic_computer.jpeg";
+import exam from "./assets/images/exam.jpeg";
+import govExam from "./assets/images/exam_gov.jpeg";
+import cuet from "./assets/images/cuet.jpeg";
+import accounts from "./assets/images/accounts.jpeg";
 
 function Course() {
   const courses = [
@@ -15,7 +28,7 @@ function Course() {
       halfStar: true,
     },
     {
-      image: "https://cdn.pixabay.com/photo/2012/11/06/04/08/board-64271_1280.jpg",
+      image: french,
       type: "Language",
       title: "French",
       text: "3 Months",
@@ -23,7 +36,7 @@ function Course() {
       halfStar: false,
     },
     {
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: programming,
       type: "Programming",
       title: "Learn JAVA Fundamentals",
       text: "3 Months",
@@ -31,7 +44,7 @@ function Course() {
       halfStar: false,
     },
     {
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: programming,
       type: "Programming",
       title: "Learn C++ Fundamentals",
       text: "3 Months",
@@ -39,7 +52,7 @@ function Course() {
       halfStar: false,
     },
     {
-      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: programming,
       type: "Programming",
       title: "Learn Python Fundamentals",
       text: "3 Months",
@@ -47,7 +60,7 @@ function Course() {
       halfStar: false,
     },
     {
-      image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: network,
       type: "TECH/IT",
       title: "CCNA (Cisco Certified Network Associate)",
       text: "3 Months",
@@ -55,7 +68,7 @@ function Course() {
       halfStar: false,
     },
     {
-      image: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: hacking,
       type: "TECH/IT",
       title: "Ethical Hacking",
       text: "3 Months",
@@ -63,7 +76,7 @@ function Course() {
       halfStar: false,
     },
     {
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: hardware,
       type: "TECH/IT",
       title: "Computer Hardware & Networking",
       text: "3 Months",
@@ -71,7 +84,7 @@ function Course() {
       halfStar: false,
     },
     {
-      image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: artificial_intelligence,
       type: "TECH/IT",
       title: "Artificial Intelligence",
       text: "3 Months",
@@ -79,7 +92,7 @@ function Course() {
       halfStar: false,
     },
     {
-      image: "https://images.unsplash.com/photo-1658203897339-0b8c64a42fba?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: excel,
       type: "TECH/IT",
       title: "MS Excel",
       text: "3 Months",
@@ -87,7 +100,7 @@ function Course() {
       halfStar: false
     },
     {
-      image: "https://images.unsplash.com/photo-1595245150898-339b88a9d477?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: basic_computer,
       type: "TECH/IT",
       title: "Basic Computer Course",
       text: "3 Months",
@@ -103,7 +116,7 @@ function Course() {
       halfStar: false,
     },
     {
-      image: "https://images.unsplash.com/photo-1562577309-2592ab84b1bc?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: seo,
       type: "Software",
       title: "Digital Marketing",
       text: "3 Months",
@@ -111,7 +124,7 @@ function Course() {
       halfStar: true,
     },
     {
-      image: "https://images.unsplash.com/photo-1665979738276-e41e815df1e1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: exam,
       type: "Exam",
       title: "IELTS / TOEFL / PTE",
       text: "3 Months",
@@ -119,7 +132,7 @@ function Course() {
       halfStar: false
     },
     {
-      image: "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: govExam,
       type: "Exam",
       title: "Govt Job Preperation",
       text: "3 Months",
@@ -127,7 +140,7 @@ function Course() {
       halfStar: true
     },
     {
-      image: "https://images.unsplash.com/photo-1488722796624-0aa6f1bb6399?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: cuet,
       type: "Exam",
       title: "CUET Preperation",
       text: "3 Months",
@@ -135,7 +148,7 @@ function Course() {
       halfStar: true
     },
     {
-      image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: accounts,
       type: "Exam",
       title: "CA/CMA/CS Preperation",
       text: "3 Months",
@@ -143,7 +156,7 @@ function Course() {
       halfStar: true
     },
     {
-      image: "https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: accounts,
       type: "Exam",
       title: "E-Accounting Preperation",
       text: "3 Months",
@@ -293,7 +306,7 @@ function Course() {
                       }
                     }}
                   />
-                  <label for="Programming">Exam</label>
+                  <label for="Exam">Exam</label>
                   <br />
                 </div>
               </div>

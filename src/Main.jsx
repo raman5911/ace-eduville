@@ -7,6 +7,10 @@ import graduated from "./assets/images/graduated.png";
 import instructor from "./assets/images/instructor.png";
 import tools from "./assets/images/computer.png";
 import engImg from "./assets/images/learn_englsih.jpg";
+import french from "./assets/images/french.jpg";
+import programming from "./assets/images/programming.jpeg";
+import network from "./assets/images/network.jpeg";
+import seo from "./assets/images/seo.jpeg";
 
 function Main() {
   return (
@@ -202,27 +206,21 @@ function Main() {
             halfStar={true}
           />
           <CardComponent
-            img={
-              "https://cdn.pixabay.com/photo/2012/11/06/04/08/board-64271_1280.jpg"
-            }
+            img={french}
             type="Language"
             title="French"
             text="3 Months"
             rating={5}
           />
           <CardComponent
-            img={
-              "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            }
+            img={programming}
             type="Programming"
             title="Learn JAVA Fundamentals"
             text="3 Months"
             rating={5}
           />
           <CardComponent
-            img={
-              "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            }
+            img={network}
             type="IT/Tech"
             title="CCNA (Cisco Certified Network Associate)"
             text="3 Months"
@@ -236,9 +234,7 @@ function Main() {
             rating={5}
           />
           <CardComponent
-            img={
-              "https://images.unsplash.com/photo-1562577309-2592ab84b1bc?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            }
+            img={seo}
             type="Software"
             title="Digital Marketing"
             text="3 Months"
