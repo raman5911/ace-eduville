@@ -46,7 +46,7 @@
 
 .card-title {
     text-align: left !important;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     font-size: 1.3rem;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .card-text-box {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 .stars {

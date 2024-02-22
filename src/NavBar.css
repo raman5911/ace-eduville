@@ -36,6 +36,10 @@ a.nav-link {
   color: #000 !important;
 }
 
+.nav_show a.whatsapp_icon_desktop {
+  color: #42c372 !important;
+}
+
 .nav-link:hover {
   color: #fff !important;
   background-color: #4985fcd0 !important;

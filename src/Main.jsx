@@ -216,7 +216,7 @@ function Main() {
             img={programming}
             type="Programming"
             title="Learn JAVA Fundamentals"
-            text="3 Months"
+            text="6 Months"
             rating={5}
           />
           <CardComponent
@@ -251,7 +251,7 @@ function Main() {
             <img src={onlineLearning} alt="online learning" />
           </span>
           <div className="text">
-            <h3 data-number="400">0</h3>
+            <h3 data-number="400">15 +</h3>
             <p className="caption">ONLINE COURSES</p>
           </div>
         </div>
@@ -260,7 +260,7 @@ function Main() {
             <img src={graduated} alt="graduated" />
           </span>
           <div className="text">
-            <h3 data-number="4500">0</h3>
+            <h3 data-number="4500">10,000 +</h3>
             <p className="caption">STUDENTS ENROLLED</p>
           </div>
         </div>
@@ -269,7 +269,7 @@ function Main() {
             <img src={instructor} alt="instructor" />
           </span>
           <div className="text">
-            <h3 data-number="1200">0</h3>
+            <h3 data-number="1200">1000 +</h3>
             <p className="caption">EXPERTS INSTRUCTORS</p>
           </div>
         </div>
@@ -278,7 +278,7 @@ function Main() {
             <img src={tools} alt="online content" />
           </span>
           <div className="text">
-            <h3 data-number="300">0</h3>
+            <h3 data-number="300">500</h3>
             <p className="caption">HOURS CONTENT</p>
           </div>
         </div>
@@ -297,11 +297,7 @@ function Main() {
             </div>
 
             <p className="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-              odit perspiciatis repellat nesciunt enim. Voluptas accusamus
-              officia pariatur quasi impedit voluptatum! Dolorem aspernatur
-              architecto officiis vero non labore. Sint dignissimos magni
-              impedit nam facere consequuntur in vero doloribus unde incidunt.
+            Ace Eduville is an educational theme park located in subhash nagar new delhi. It is designed to provide an interactive and engaging learning experience for children and students, focusing on various subjects such as science, technology, engineering, arts, and mathematics (STEAM). The park features different attractions and exhibits that help children learn & develop professional skills in an enjoyable way. Ace Eduville aims to make learning enjoyable and memorable for young minds while promoting the importance of education.
             </p>
 
             <button className="btn btn-primary">Get in touch with us</button>
@@ -574,20 +570,18 @@ function Main() {
         </div>
 
         <p className="text-muted">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa ea
-          voluptatum mollitia vel dolore! Ducimus deleniti perspiciatis labore
-          ratione vitae.
+        We are Ace Eduville, an online and offline educational center specializing in speech development. Our mission is to provide comprehensive learning experiences to help individuals improve their communication skills and enhance their overall self-expression.
         </p>
 
-        <p className="text-muted">
+        {/* <p className="text-muted">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
           illum ab sit mollitia, amet dolorum id vitae, esse quo error alias
           voluptatem. Est, eveniet eligendi? Aut quisquam eligendi itaque
           dolorem.
-        </p>
+        </p> */}
 
         <div className="video-box">
-          <a href="">
+          <a href="https://www.youtube.com/watch?v=L0U1Fr1FTyo" target="_blank">
             <i className="fa fa-play-circle"></i>
           </a>
           <h4>Learn anything from Ace Eduville, Watch video</h4>

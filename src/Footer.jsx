@@ -9,9 +9,7 @@ function Footer() {
         <Col sm={12} md={12} lg={4} xl={4} className="col">
           <h4>About</h4>
           <p className="text-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-            molestiae doloremque distinctio dolor officia ipsum libero fuga
-            doloribus sequi pariatur!
+          Ace Eduville is an educational theme park located in subhash nagar new delhi. It is designed to provide an interactive and engaging learning experience for children and students, focusing on various subjects.
           </p>
 
           <div className="social-icons-box">

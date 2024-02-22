@@ -33,7 +33,7 @@ function CardComponent({img, type, title, text, rating, halfStar}) {
         <Card.Title className='card-title'>{title}</Card.Title>
 
         <Card.Text className='card-text-box'>
-            <p className='text-muted caption'><span>Course Duration:</span> {text}</p>
+            {/* <p className='text-muted caption'><span>Course Duration:</span> {text}</p> */}
             <div className="stars">
                 {printStars()}
                 {halfStar && <span><i className="fa fa-star-half star"></i></span>}
