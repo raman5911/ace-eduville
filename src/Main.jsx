@@ -248,7 +248,7 @@ function Main() {
         <div className="overlay"></div>
         <div className="child">
           <span className="icon">
-            <img src={onlineLearning} alt="online learning" />
+            <img src={onlineLearning} alt="online learning" loading="lazy" />
           </span>
           <div className="text">
             <h3 data-number="400">15 +</h3>
@@ -257,7 +257,7 @@ function Main() {
         </div>
         <div className="child">
           <span className="icon">
-            <img src={graduated} alt="graduated" />
+            <img src={graduated} alt="graduated" loading="lazy" />
           </span>
           <div className="text">
             <h3 data-number="4500">10,000 +</h3>
@@ -266,7 +266,7 @@ function Main() {
         </div>
         <div className="child">
           <span className="icon">
-            <img src={instructor} alt="instructor" />
+            <img src={instructor} alt="instructor" loading="lazy" />
           </span>
           <div className="text">
             <h3 data-number="1200">1000 +</h3>
@@ -275,7 +275,7 @@ function Main() {
         </div>
         <div className="child">
           <span className="icon">
-            <img src={tools} alt="online content" />
+            <img src={tools} alt="online content" loading="lazy" />
           </span>
           <div className="text">
             <h3 data-number="300">500</h3>
@@ -351,7 +351,7 @@ function Main() {
                 <div className="name">
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/6833/6833605.png"
-                    alt="student"
+                    alt="student" loading="lazy"
                   />
                   <div className="box">
                     <h5>Sarabjeet Kaur</h5>
@@ -386,7 +386,7 @@ function Main() {
                 <div className="name">
                   <img
                     src="https://www.eimt.ch/wp-content/uploads/2022/12/dummy-user.png"
-                    alt="student"
+                    alt="student" loading="lazy"
                   />
                   <div className="box">
                     <h5>Shalu Kumar</h5>
@@ -425,7 +425,7 @@ function Main() {
                 <div className="name">
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/6833/6833605.png"
-                    alt="student"
+                    alt="student" loading="lazy"
                   />
                   <div className="box">
                     <h5>Simran Kaur</h5>
@@ -465,7 +465,7 @@ function Main() {
                 <div className="name">
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/6833/6833605.png"
-                    alt="student"
+                    alt="student" loading="lazy"
                   />
                   <div className="box">
                     <h5>Sarabjeet Kaur</h5>
@@ -539,7 +539,7 @@ function Main() {
                 <div className="name">
                   <img
                     src="https://cdn-icons-png.flaticon.com/512/6833/6833605.png"
-                    alt="student"
+                    alt="student" loading="lazy"
                   />
                   <div className="box">
                     <h5>Simran Kaur</h5>

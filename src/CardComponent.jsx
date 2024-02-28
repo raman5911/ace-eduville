@@ -23,7 +23,7 @@ function CardComponent({img, type, title, text, rating, halfStar}) {
   return (
     <Card style={{ width: '18rem' }} className='card-box'>
       <div className="img-box">
-        <Card.Img variant="top" className='img-fluid' src={img} />
+        <Card.Img variant="top" className='img-fluid' src={img} loading='lazy' />
       </div>
 
       {/* <div className="img-box" style={{ backgroundImage: `url(${img})`, backgroundPosition: "center", backgroundSize: "contain", backgroundRepeat: "no-repeat" }}></div> */}
